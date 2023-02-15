@@ -47,3 +47,38 @@ body, html {
   -webkit-text-stroke-color: black;
   letter-spacing: 5px;
 }
+
+.green_bar {
+  height: 150px;
+  background-color: rgb(198, 247, 198);
+}
+.heart{
+  width: 150px;
+  height: 100px;
+  padding-left: 50px;
+  padding-top: 25px;
+  text-align: center;
+}
+#green_heart_image{
+  height: 50px;
+  width: 50px;
+}
+#trust{
+  font-family: Lobster;
+  font-size: 20px;
+}
+.leaf{
+  border: solid red;
+  width: 150px;
+  height: 100px;
+  margin-left: 250px;
+  text-align: center;
+}
+#green_leaf_image{
+  height: 50px;
+  width: 50px;
+}
+#home_grown{
+  font-family: Lobster;
+  font-size: 20px;
+}
