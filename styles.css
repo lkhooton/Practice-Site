@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #a9dffc;
+}
+
+.navbar-brand {
+  font-family: Fleur De Leah;
+  font-size: 75px !important;
+}
+
+.intro {
+  background-image: url('images/springflowers.jpg'); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: Lobster;
+}
+#spring {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 100px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 5px;
+  
+}
+#stop_in{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 55px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 5px;
+}
