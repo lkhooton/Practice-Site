@@ -9,6 +9,7 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 .navbar-brand {
@@ -18,7 +19,6 @@ body, html {
 
 .intro {
   background-image: url('images/springflowers.jpg'); 
-  
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,6 +27,15 @@ body, html {
   text-align: center;
   color: white;
   font-family: Lobster;
+}
+.intro::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(251, 249, 249, 0.25);
 }
 #spring {
   position: absolute;
@@ -70,3 +79,10 @@ body, html {
   font-size: 20px;
 }
 
+.plant_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
