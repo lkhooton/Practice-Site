@@ -86,3 +86,7 @@ body, html {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
+.card_image {
+  height: 125px;
+  width: 125px;
+}
