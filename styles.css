@@ -62,7 +62,7 @@ body, html {
 /* GREEN BAR SECTION STYLING */
 .green_bar {
   height: 150px;
-  background-color: rgb(198, 247, 198);
+  background-color: rgb(221, 239, 221);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
