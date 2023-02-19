@@ -14,13 +14,13 @@ body, html {
 
 /* NAVBAR STYLING */
 .navbar-brand {
-  font-family: Fleur De Leah;
-  font-size: 75px !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 55px !important;
 }
 
 /* INTRO SECTION STYLING */
 .intro {
-  background-image: url('images/springflowers.jpg'); 
+  background-image: url('images/tulips.jpeg'); 
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,12 +63,12 @@ body, html {
 .green_bar {
   height: 150px;
   background-color: rgb(221, 239, 221);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: center;
 }
 .green_image{
   height: 50px;
@@ -78,7 +78,7 @@ body, html {
   padding-top: 40px;
 }
 .text_under_image{
-  font-family: Lobster;
+  /* font-family: Lobster; */
   font-size: 20px;
 }
 
