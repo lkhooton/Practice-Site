@@ -86,3 +86,9 @@ body, html {
   align-items: center;
   justify-content: center;
 }
+
+/* GUIDES SECTION STYLING */
+
+.learn_more {
+  text-decoration: underline;
+}
