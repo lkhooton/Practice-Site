@@ -12,6 +12,14 @@ body, html {
   background-color: white;
 }
 
+/* NAVBAR STYLING */
+.center-title {
+  padding-left: 45%;
+  color: rgb(2, 63, 2);
+  text-shadow: 1PX 1PX 1PX green;
+}
+
+
 /* INTRO SECTION STYLING */
 .intro {
   background-image: url('images/tulips.jpeg'); 
@@ -35,15 +43,15 @@ body, html {
 }
 #spring {
   position: absolute;
-  top: 8px;
+  top: 100px;
   right: 16px;
-  font-size: 100px;
+  font-size: 75px;
   letter-spacing: 5px;
   text-shadow: 1px 1px 1px #000;
 }
 #stop_in{
   position: absolute;
-  bottom: 8px;
+  bottom: 100px;
   left: 16px;
   font-size: 55px;
   letter-spacing: 5px;
@@ -69,7 +77,6 @@ body, html {
   padding-top: 40px;
 }
 .text_under_image{
-  /* font-family: Lobster; */
   font-size: 20px;
 }
 
@@ -93,4 +100,7 @@ body, html {
   text-decoration: underline;
   color: black;
   font-size: 20px;
+}
+h4, .container, #guides {
+  text-align: center;
 }
