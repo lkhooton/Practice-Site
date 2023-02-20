@@ -12,12 +12,6 @@ body, html {
   background-color: white;
 }
 
-/* NAVBAR STYLING */
-.navbar-brand {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 55px !important;
-}
-
 /* INTRO SECTION STYLING */
 .intro {
   background-image: url('images/tulips.jpeg'); 
@@ -44,19 +38,16 @@ body, html {
   top: 8px;
   right: 16px;
   font-size: 100px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
   letter-spacing: 5px;
-  
+  text-shadow: 1px 1px 1px #000;
 }
 #stop_in{
   position: absolute;
   bottom: 8px;
   left: 16px;
   font-size: 55px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
   letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #000;
 }
 
 /* GREEN BAR SECTION STYLING */
@@ -83,20 +74,15 @@ body, html {
 }
 
 /* PLANT CARD LINKS SECTION */
-.plant_cards{
-  margin: 20px auto;
-  width:400px;
-  height:400px;
-  background-color:#fff;
-  display:grid;
-  grid-template-columns: 200px 200px;
-  grid-row: auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  text-align: center;
+
+#img_card {
+  width:  300px;
+  height: 300px;
+  object-fit: cover;
 }
 
-.card_image {
-  height: 125px;
-  width: 125px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
