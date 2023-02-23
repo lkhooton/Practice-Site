@@ -14,7 +14,8 @@ body, html {
 
 /* NAVBAR STYLING */
 .center-title {
-  padding-left: 45%;
+  font-family: Montserrat;
+  padding-left: 42%;
   color: rgb(2, 63, 2);
   text-shadow: 1PX 1PX 1PX green;
 }
