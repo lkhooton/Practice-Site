@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
-
+@import url('https://fonts.cdnfonts.com/css/geograph-edit');
 
 body, html {
   height: 100%;
@@ -14,7 +14,7 @@ body, html {
 
 /* NAVBAR STYLING */
 .center-title {
-  font-family: Montserrat;
+  font-family: Geograph;
   padding-left: 42%;
   color: rgb(2, 63, 2);
   text-shadow: 1PX 1PX 1PX green;
@@ -23,7 +23,7 @@ body, html {
 
 /* INTRO SECTION STYLING */
 .intro {
-  background-image: url('images/tulips.jpeg'); 
+  background-image: url('/images/tulips.jpeg'); 
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,6 +82,10 @@ body, html {
 }
 
 /* PLANT CARD LINKS SECTION */
+
+#shopping {
+  padding-top: 50px;
+}
 
 #img_card {
   width:  300px;
